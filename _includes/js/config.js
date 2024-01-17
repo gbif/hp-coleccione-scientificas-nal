@@ -19,7 +19,6 @@ var siteConfig = {
     excludedFilters: ['occurrenceStatus', 'networkKey', 'institutionKey', 'hostingOrganizationKey', 'protocol', 'publishingCountryCode', 'institutionCode', 'collectionCode'],
     highlightedFilters: ['taxonKey', 'verbatimScientificName', 'collectionKey', 'catalogNumber', 'recordedBy', 'identifiedBy'],
     defaultTableColumns: ['features', 'collectionKey', 'catalogNumber', 'country', 'year', 'recordedBy', 'identifiedBy'],
-    availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     mapSettings: {
       lat: 0,
       lng: 0,
