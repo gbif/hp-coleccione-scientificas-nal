@@ -57,7 +57,8 @@ var siteConfig = {
   collection: {
     rootFilter: {
       institutionKey: ['e85150f2-7c38-46c2-9dac-b3a895c0bf6d']
-    }
+    },
+    excludedFilters: ['institutionKeySingle'],
   },
   availableCatalogues: ['OCCURRENCE', 'COLLECTION'],
   maps: {
