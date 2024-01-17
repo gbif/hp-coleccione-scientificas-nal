@@ -1,14 +1,14 @@
 ---
 lang-ref: home
 layout: home
-title: Template headline
+title: Colecciones Científicas
 description: Lesser saw seas own have can’t kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they’re grass called open.
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
 cta:
-  - text: Institutions
-    href: /institution/search
+  - text: Collections
+    href: /collection/search
     isPrimary: true
   - text: Specimens
     href: /specimen/search
