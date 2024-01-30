@@ -19,16 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Colecciones Científicas
-email: your-email@example.com
+title: Colecciones Biológicas de la Universidad Nacional de Colombia
+email: coleccionescientificas_nal@unal.edu.co
 description: >- # this means to ignore newlines (until baseurl:)
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Portal de colecciones biológicas de la Universidad Nacional de Colombia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coleccione-scientificas-nal.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
+# twitter_username: yourname # if you have an account you want to link to. Else comment this line out
+github_username:  colecionescientificas-unal # if you have an account you want to link to. Else comment this line out
 
 # Build settings
 theme: minima
@@ -59,7 +57,7 @@ algae:
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
     brandBackground: black        # Define a custom background for the logo/title in the top navigation bar
-    color: "#000"                 # What color should the navbar be?
+    color: "#484444"                 # What color should the navbar be?
     hasWhiteText: true          # Should the text color be white?
     # floating: true
 
