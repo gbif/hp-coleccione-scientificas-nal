@@ -1,15 +1,15 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Specimens (en)
+- text: Specimens
   menu:
-  - text: Search (en)
+  - text: Search
     href: /en/specimen/search
-  - text: Map (en)
+  - text: Map
     href: /en/specimen/search/?view=MAP
   href: /en/specimen/search
-- text: Collections (en)
+- text: Collections
   href: /en/collection/search
-- text: About (en)
+- text: About
   href: /en/about
-- text: Resources (en)
+- text: Resources
   href: /en/resources

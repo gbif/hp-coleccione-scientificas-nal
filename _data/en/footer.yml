@@ -5,7 +5,7 @@
 columns:
   - name: Contact
     description: | # Can be Markdown
-      Contacto página web
+      Website contact
       * Av. El Dorado 44a 40
       * Hemeroteca Nacional Universitaria
       * Bogotá D.C., Colombia
@@ -14,9 +14,9 @@ columns:
 
   - name: Credits
     description: | # Can be Markdown
-      Algunos derechos reservados
-      * [Contáctenos](mailto:{{site.mail}})
-      * Actualización: 21/02/2024
+      Some rights reserved
+      * [Contact us](mailto:{{site.mail}})
+      * Last update: 21/02/2024
 
   # EXAMPLE
   #- name: Group name
