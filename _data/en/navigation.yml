@@ -2,7 +2,7 @@
 
 - text: Specimens
   menu:
-  - text: Search
+  - text: Ocurrences
     href: /en/specimen/search
   - text: Map
     href: /en/specimen/search/?view=MAP

@@ -2,9 +2,9 @@
 
 - text: Registros
   menu:
-  - text: Búsqueda
+  - text: Ocurrencias
     href: /specimen/search
-  - text: Mapa de registros
+  - text: Mapa de ocurrencias
     href: /specimen/search/?view=MAP
   href: /specimen/search
 - text: Colecciones

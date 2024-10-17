@@ -1,6 +1,6 @@
 ---
-title: Instituciones
-description: Lista de instituciones en la UNAL
+title: Institutions
+description: Institutions list
 permalink: /en/institution/search
 layout: institution-search
 lang-ref: institution/search

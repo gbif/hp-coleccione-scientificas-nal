@@ -8,7 +8,7 @@ stats:
       description: Registros biológicos
       background: /assets/images/icons/ocurrences.svg
       href: /specimen/search/
-    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingOrg=eac88d99-9f6c-4031-8fc4-8088f0e0dfe7&type=OCCURRENCE">64</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingOrg=eac88d99-9f6c-4031-8fc4-8088f0e0dfe7&type=OCCURRENCE">69</span>
       description: Conjuntos de datos
       background: /assets/images/icons/datasets.svg
       href: /institution/search
@@ -20,8 +20,7 @@ project:
   reverse: false
   title: "El portal"
   description: |      # required
-    Descripción del proyecto de visualización de colecciones biológicas, los diferentes tipos de colecciones. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum convallis dui, at hendrerit turpis finibus quis. Nunc eget augue nec mi viverra eleifend varius vel nisi. Ut bibendum enim turpis, ut accumsan felis varius eu. Suspendisse auctor sapien quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer dignissim rutrum velit, in cursus eros laoreet sit amet. Phasellus sodales neque vitae ex lobortis, nec bibendum arcu tincidunt. Cras non felis quam. Praesent finibus massa quis mauris viverra, et lobortis quam euismod. Sed rutrum tellus elit, sit amet lacinia felis consectetur non. Aliquam dignissim libero sit amet sem bibendum, ut tincidunt eros gravida. Mauris non enim vitae purus luctus tristique. Quisque scelerisque, nisl vitae sodales accumsan, purus ipsum sagittis neque, id mollis est ligula ut quam. Fusce cursus dolor nec nisl aliquet, sit amet maximus est condimentum..
-  # img required
+    El Portal de Colecciones Científicas de la Universidad Nacional de Colombia es un espacio web de acceso abierto que tiene como finalidad poner a disposición de la sociedad el conjunto de recursos investigativos coleccionados sistemáticamente durante más de 150 años por diferentes dependencias de la Universidad, integrado actualmente en el Sistema de Colecciones Científicas.
   background: /assets/images/placeholders/crustaceo.jpg
   imageLicense: |
     Universidad Nacional de Colombia

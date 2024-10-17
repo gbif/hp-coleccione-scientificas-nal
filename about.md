@@ -1,92 +1,29 @@
 ---
 lang-ref: about
-title: About in spanish
-description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/placeholders/moss.jpg
+title: Acerca de
+description: Acerca del portal de colecciones biológicas de la Universidad Nacional de Colombia
+background: /assets/images/hero_section_image.jpg
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+  Universidad Nacional de Colombia
 height: 70vh
 ---
 
-## Procris quippe mentior urbes ubi
+## Portal de colecciones biológicas UNAL
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+El Portal de Colecciones Científicas de la Universidad Nacional de Colombia es un espacio web de acceso abierto que tiene como finalidad poner a disposición de la sociedad el conjunto de recursos investigativos coleccionados sistemáticamente durante más de 150 años por diferentes dependencias de la Universidad, integrado actualmente en el Sistema de Colecciones Científicas. 
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+El portal es la representación digital de un inmenso acervo de muestras físicas y objetos. Alrededor de **7 millones** de especímenes de diversa naturaleza —junto con su información asociada— son catalogados y alojados en las más de **60** colecciones científicas que salvaguardan, protegen, conservan, documentan y divulgan este patrimonio en sus dimensiones cultural, científica, ambiental y natural. Es esta una estrategia para preservar y mantener en el tiempo los conocimientos y saberes sobre la diversidad del mundo natural.
 
-## Quam ex te videt
+El centro de las colecciones son sus especímenes: muestras representativas de organismos vivos u objetos. En ellos se inscribe la huella de las múltiples prácticas científicas emprendidas desde la Universidad, investigaciones para afrontar problemas sociales, económicos y políticos e iniciativas locales para salvaguardar los saberes que rodean a las diversas comunidades parte de la nación. 
 
-Quam Erycina et celsoque trabes; torva, nec et alto egens. Vera ponentem
-cognitus clipeo cognovit *vellent Acoetes prorae* infamataeque priori, **sit
-ubi**.
+En este espacio virtual, el objeto o muestra física —junto con su información asociada— se traduce a datos digitales, dando cuenta de la mayor cantidad de características de los especímenes y colecciones. Los datos de localidad, distribución, taxonomía, comportamiento, materialidad, denominación y las múltiples personas que participaron de su estudio se integran sistemáticamente para ser consultados por la sociedad. 
 
-    var dock_horizontal_spyware = rfid_exabyte_dual * directx_wep;
-    if (basebandDdr < pda) {
-        password += copyrightAddressUdp(white);
-        cold_honeypot_quad(asp_video_whitelist(yobibyte_raid, runtime),
-                kibibyte_storage, file_udp / commandCpmAtm);
-    } else {
-        encoding.dragWhoisWww = lun_token * ram;
-        boxCpm(media_drag_southbridge);
-        url_key.gnutellaTrinitron += uddi_login_overwrite;
-    }
-    if (phreaking(digitalMulticasting, compression)) {
-        mashup -= serverWidgetTask(9) + mashupDirectory;
-        safeCifsIde = odbc_modem;
-    }
+## Las colecciones científicas de la UNAL
 
-### Turbatque promittat memorque
+A la fecha, 69 colecciones de 7 de las 9 sedes de la Universidad han unido esfuerzos con la Vicerrectoría de Investigación para conectarse y representar en conjunto la identidad de su labor científica, social y biocultural; labor de la que han participado durante más de un siglo. Son colecciones históricas y contemporáneas, diversas en su tipología y en la forma en que han almacenado y organizado a sus especímenes, porque son diversos los seres y recursos, diversos los problemas de los territorios y diversas las formas en que las colecciones han participado de su solución. Acceder a ellas es una oportunidad para comprender nuestro entorno físico, social e histórico.
 
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
+Las colecciones conservan el rastro de nuestra interacción con la naturaleza a lo largo del tiempo; múltiples formas de comprender e interactuar con los demás seres y recursos que habitan y han habitado el territorio nacional. Organismos vivos, suelos, minerales, rocas, registros fósiles y objetos arqueológicos integran un diverso repertorio consolidado por comunidades académicas y locales que han organizado de forma particular y original cada una de sus colecciones.
 
---------
+La naturaleza de los especímenes es diversa y comprende todo tipo de escalas: desde los cultivos celulares de bacterias, algas y hongos, hasta las muestras de plantas y animales. Pasando por registros geológicos de perfiles de suelos, minerales y fósiles, hasta llegar a objetos arqueológicos que dan cuenta de las prácticas culturales de comunidades humanas del pasado en su relación con su entorno natural; conservando artefactos, piezas y fragmentos cerámicos, líticos, óseos, xílicos, tejidos con fibras y restos de fauna y flora. Finalmente, se integran las colecciones vivas con sus jardines botánicos, arboretos, senderos de interpretación y estaciones biológicas.
 
-### In frustra albus
-
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
-
-### Turbatque promittat memorque
-
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| tables        | are useful    |    $1 |
-
---------
-
-### In frustra albus
-
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
-
-* Level 1 a
-* Level 1 b
-  * Level 2 a
-  * Level 2 b
-
-## Est mea videndo
-
-Nec bene filia fraxineam flumina, praesens amici nitidaeque inguine infractaque!
-Non quae illuc! E alto cum quod: fessi fatum patulis ore actaque quaque, ore.
-Honor praemia veniunt violavit tu
-[aequore](http://pete-munere.com/caeneus-dare.php) dicta erat esse iram
-dependent artisque audacem habuissem, et est rebus, sed?
-
-[Call to action](/data){: .button .is-primary} [Other action](/data){: .button}
-
-Qua refert, orbataque a denique silentia. Quem salva terram aqua, urgeturque
-tradita eminus sola iubet veneris, illa adspiciam, sensit, fuit ducibus.
+Los especímenes están acompañados de múltiples fuentes documentales como inventarios, catálogos, bitácoras, fotografías, ilustraciones, publicaciones, archivos históricos y notas de campo en formatos físicos y digitales. Estos recursos son preservados en una variedad de espacios físicos que van desde lugares exclusivos para su conservación, laboratorios de investigación y docencia, así como espacios multiuso para docencia, investigación y extensión.
