@@ -10,19 +10,16 @@ var siteConfig = {
   version: 2,
   routes: {
     alwaysUseHrefs: false, // Update - there now is translations. since the site isn't translated we can use push for now. if true, then we will always use hrefs, if false we will use onClick events and push state to the history. I've added this because I just realize that the language picker doesn't work with pushState as the url of the translated site is not updated with the new url
-    enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institutionKey'],
-    occurrenceSearch: {
-      route: '/specimen/search'
-    }
+    enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institution', 'institutionKey'],
   },
   occurrence: {
     excludedFilters: ['occurrenceStatus', 'networkKey', 'institutionKey', 'hostingOrganizationKey', 'protocol', 'publishingCountryCode', 'institutionCode', 'collectionCode'],
     highlightedFilters: ['taxonKey', 'verbatimScientificName', 'collectionKey', 'catalogNumber', 'recordedBy', 'identifiedBy'],
     defaultTableColumns: ['features', 'collectionKey', 'catalogNumber', 'country', 'year', 'recordedBy', 'identifiedBy'],
     mapSettings: {
-      lat: 0,
-      lng: 0,
-      zoom: 0
+      lat: 4.256423432466043,
+      lng: -73.76639776334413,
+      zoom: 7
     },
     // You probably need help to configure the scope - so just ask
     // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API. 
@@ -51,7 +48,7 @@ var siteConfig = {
         }
       ]
     },
-    occurrenceSearchTabs: ['TABLE', 'MAP'] // what tabs should be shown
+    occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   collection: {
@@ -60,9 +57,14 @@ var siteConfig = {
     },
     excludedFilters: ['institutionKeySingle'],
   },
+  dataset: {
+    rootFilter: { publishingOrg: 'eac88d99-9f6c-4031-8fc4-8088f0e0dfe7' },
+    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
+    excludedFilters: ['publishingCountryCode'],
+  },
   availableCatalogues: ['OCCURRENCE', 'COLLECTION'],
   maps: {
-    // locale: 'ja',
+    locale: 'es',
     defaultProjection: 'MERCATOR',
     defaultMapStyle: 'BRIGHT',
     mapStyles: {
