@@ -40,14 +40,14 @@ remote_theme: gbif/jekyll-hp-base-theme
 privacy:
   name: Your organisation name
   domain: your-domain.org
-  contactEmail: info@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  contactEmail: coleccionescientificas_nal@unal.edu.co
+  helpdeskEmail: coleccionescientificas_nal@unal.edu.co
 
 algae:
   rootLang: es
   # latestPostLimit: 2
-  logo: /assets/images/logo.png  # Logo in navbar, will be displayed with 28px height
-  logoAndTitle: false           # include the title next to the logo
+  # logo: /assets/images/logo.png  # Logo in navbar, will be displayed with 28px height
+  # logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
@@ -57,7 +57,7 @@ algae:
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
     brandBackground: black        # Define a custom background for the logo/title in the top navigation bar
-    color: "#484444"                 # What color should the navbar be?
+    color: "#677d29"                 # What color should the navbar be?
     hasWhiteText: true          # Should the text color be white?
     # floating: true
 
