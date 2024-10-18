@@ -3,10 +3,10 @@
 - text: Registros
   menu:
   - text: Ocurrencias
-    href: /specimen/search
+    href: /occurrence/search
   - text: Mapa de ocurrencias
-    href: /specimen/search/?view=MAP
-  href: /specimen/search
+    href: /occurrence/search/?view=MAP
+  href: /occurrence/search
 - text: Colecciones
   href: /collection/search
 - text: Acerca de

@@ -3,10 +3,10 @@
 - text: Specimens
   menu:
   - text: Ocurrences
-    href: /en/specimen/search
+    href: /en/occurrence/search
   - text: Map
-    href: /en/specimen/search/?view=MAP
-  href: /en/specimen/search
+    href: /en/occurrence/search/?view=MAP
+  href: /en/occurrence/search
 - text: Collections
   href: /en/collection/search
 - text: About
