@@ -19,7 +19,7 @@ var siteConfig = {
     mapSettings: {
       lat: 4.256423432466043,
       lng: -73.76639776334413,
-      zoom: 7
+      zoom: 10
     },
     // You probably need help to configure the scope - so just ask
     // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API. 
