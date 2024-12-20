@@ -8,13 +8,15 @@ var siteTheme = gbifReactComponents.themeBuilder.extend({
 
 var siteConfig = {
   version: 2,
+  disableInlineTableFilterButtons: false, // disable option for adding filters by clicking table cells. See https://github.com/gbif/hosted-portals/issues/274
   routes: {
-    alwaysUseHrefs: false, // Update - there now is translations. since the site isn't translated we can use push for now. if true, then we will always use hrefs, if false we will use onClick events and push state to the history. I've added this because I just realize that the language picker doesn't work with pushState as the url of the translated site is not updated with the new url
-    enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institution', 'institutionKey'],
+    alwaysUseHrefs: true, // Update - there now is translations. since the site isn't translated we can use push for now. if true, then we will always use hrefs, if false we will use onClick events and push state to the history. I've added this because I just realize that the language picker doesn't work with pushState as the url of the translated site is not updated with the new url
+    enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institutionSearch', 'institutionKey', 'datasetKey', 'datasetSearch'],
   },
+  availableCatalogues: ['COLLECTION', 'OCCURRENCE', 'DATASET'],
   occurrence: {
+    highlightedFilters: ['taxonKey', 'verbatimScientificName', 'collectionKey', 'catalogNumber', 'recordedBy', , 'gadmGid', 'hasCoordinate', 'q'],
     excludedFilters: ['occurrenceStatus', 'networkKey', 'institutionKey', 'hostingOrganizationKey', 'protocol', 'publishingCountryCode', 'institutionCode', 'collectionCode'],
-    highlightedFilters: ['taxonKey', 'verbatimScientificName', 'collectionKey', 'catalogNumber', 'recordedBy', 'identifiedBy'],
     defaultTableColumns: ['features', 'collectionKey', 'catalogNumber', 'country', 'year', 'recordedBy', 'identifiedBy'],
     mapSettings: {
       lat: 4.256423432466043,
@@ -52,6 +54,8 @@ var siteConfig = {
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   collection: {
+    // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
+    // https://hp-theme.gbif-staging.org/data-exploration-config
     rootFilter: {
       institutionKey: ['e85150f2-7c38-46c2-9dac-b3a895c0bf6d']
     },
@@ -62,7 +66,10 @@ var siteConfig = {
     highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
     excludedFilters: ['publishingCountryCode'],
   },
-  availableCatalogues: ['OCCURRENCE', 'COLLECTION'],
+    //apiKeys: {
+    //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
+    //mapbox: "GET_YOUR_OWN__TOKEN"
+  //},
   maps: {
     locale: 'es',
     defaultProjection: 'MERCATOR',
