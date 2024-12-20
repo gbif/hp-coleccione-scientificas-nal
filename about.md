@@ -1,18 +1,20 @@
 ---
-lang-ref: about
 title: Acerca de
 description: Acerca del portal de colecciones biológicas de la Universidad Nacional de Colombia
 background: /assets/images/hero_section_image.jpg
 imageLicense: |
   Universidad Nacional de Colombia
 height: 70vh
+parallax: true
+lang-ref: about
+lang: es
 ---
 
 ## Portal de colecciones biológicas UNAL
 
 El Portal de Colecciones Científicas de la Universidad Nacional de Colombia es un espacio web de acceso abierto que tiene como finalidad poner a disposición de la sociedad el conjunto de recursos investigativos coleccionados sistemáticamente durante más de 150 años por diferentes dependencias de la Universidad, integrado actualmente en el Sistema de Colecciones Científicas. 
 
-El portal es la representación digital de un inmenso acervo de muestras físicas y objetos. Alrededor de **7 millones** de especímenes de diversa naturaleza —junto con su información asociada— son catalogados y alojados en las más de **60** colecciones científicas que salvaguardan, protegen, conservan, documentan y divulgan este patrimonio en sus dimensiones cultural, científica, ambiental y natural. Es esta una estrategia para preservar y mantener en el tiempo los conocimientos y saberes sobre la diversidad del mundo natural.
+El portal es la representación digital de un inmenso acervo de muestras físicas y objetos. Alrededor de **7 millones** de especímenes de diversa naturaleza —junto con su información asociada— son catalogados y alojados en las más de **69** colecciones científicas que salvaguardan, protegen, conservan, documentan y divulgan este patrimonio en sus dimensiones cultural, científica, ambiental y natural. Es esta una estrategia para preservar y mantener en el tiempo los conocimientos y saberes sobre la diversidad del mundo natural.
 
 El centro de las colecciones son sus especímenes: muestras representativas de organismos vivos u objetos. En ellos se inscribe la huella de las múltiples prácticas científicas emprendidas desde la Universidad, investigaciones para afrontar problemas sociales, económicos y políticos e iniciativas locales para salvaguardar los saberes que rodean a las diversas comunidades parte de la nación. 
 

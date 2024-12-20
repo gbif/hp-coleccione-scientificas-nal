@@ -6,6 +6,10 @@ description: Search portal for the biological collections of the National Univer
 background: /assets/images/hero_section_image.jpg
 imageLicense: Universidad Nacional de Colombia
 height: 90vh
+parallax: true
+lang: en
+lang-ref: home
+permalink: /
 cta:
   - text: Ocurrences
     href: /specimen/search

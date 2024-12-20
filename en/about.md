@@ -1,18 +1,20 @@
 ---
-lang-ref: about
 title: About
 description: About the Biological Collections Portal of the Universidad Nacional de Colombia
 background: /assets/images/hero_section_image.jpg
 imageLicense: |
   Universidad Nacional de Colombia
 height: 70vh
+parallax: true
+lang-ref: about
+lang: en
 ---
 
 ## About the Biological Collections Portal of the Universidad Nacional de Colombia
 
 The Portal of Scientific Collections of the National University of Colombia is an open access web space that aims to make available to society the set of research resources systematically collected for over 150 years by different departments of the University, currently integrated into the Scientific Collections System. 
 
-The portal is the digital representation of an immense collection of physical specimens and objects. Around **7 million** specimens of diverse nature -along with their associated information- are catalogued and housed in more than **60** scientific collections that safeguard, protect, conserve, document and disseminate this heritage in its cultural, scientific, environmental and natural dimensions. This is a strategy to preserve and maintain over time the knowledge and wisdom about the diversity of the natural world.
+The portal is the digital representation of an immense collection of physical specimens and objects. Around **7 million** specimens of diverse nature -along with their associated information- are catalogued and housed in more than **69** scientific collections that safeguard, protect, conserve, document and disseminate this heritage in its cultural, scientific, environmental and natural dimensions. This is a strategy to preserve and maintain over time the knowledge and wisdom about the diversity of the natural world.
 
 The core of the collections are their specimens: representative samples of living organisms or objects. They bear the imprint of the multiple scientific practices undertaken by the University, research to address social, economic and political problems, and local initiatives to safeguard the knowledge that surrounds the diverse communities of the nation. 
 
