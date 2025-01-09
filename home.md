@@ -3,7 +3,7 @@ layout: home
 klass: home
 title: <strong>Colecciones biológicas de la Universidad Nacional de Colombia</strong>
 description: Portal de consulta para las colecciones biológicas de la Universidad Nacional
-background: /assets/images/hero_section_image.jpg
+background: /assets/images/banner_biologicas_ST-(1920).jpg
 imageLicense: Universidad Nacional de Colombia
 height: 90vh
 parallax: true

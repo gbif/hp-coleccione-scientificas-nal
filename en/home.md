@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: <strong>Biological Collections of the National University of Colombia</strong>
 description: Search portal for the biological collections of the National University.
-background: /assets/images/hero_section_image.jpg
+background: /assets/images/banner_biologicas_ST-(1920).jpg
 imageLicense: Universidad Nacional de Colombia
 height: 90vh
 parallax: true
