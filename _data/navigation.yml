@@ -1,15 +1,15 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Registros
+- text: Colecciones
+  href: /collection/search
+- text: Acerca de
+  href: /about
+- text: Registros biológicos
   menu:
   - text: Ocurrencias
     href: /occurrence/search
   - text: Mapa de ocurrencias
     href: /occurrence/search/?view=MAP
   href: /occurrence/search
-- text: Colecciones
-  href: /collection/search
-- text: Acerca de
-  href: /about
 - text: Recursos
   href: #

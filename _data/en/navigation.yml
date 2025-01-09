@@ -1,15 +1,15 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Specimens
-  menu:
-  - text: Ocurrences
-    href: /en/occurrence/search
-  - text: Map
-    href: /en/occurrence/search/?view=MAP
-  href: /en/occurrence/search
 - text: Collections
   href: /en/collection/search
 - text: About
   href: /en/about
+- text: Registros biológicos
+  menu:
+  - text: Ocurrences
+    href: /en/occurrence/search
+  - text: Ocurrences map
+    href: /en/occurrence/search/?view=MAP
+  href: /en/occurrence/search
 - text: Resources
   href: #
