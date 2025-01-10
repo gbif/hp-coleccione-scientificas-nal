@@ -6,15 +6,15 @@ stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=eac88d99-9f6c-4031-8fc4-8088f0e0dfe7">500000</span>
       description: Registros biológicos
-      background: /assets/images/icons/ocurrences.svg
+      background: /assets/images/icons/ocurrences.png
       href: /specimen/search/
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingOrg=eac88d99-9f6c-4031-8fc4-8088f0e0dfe7&type=OCCURRENCE">69</span>
       description: Conjuntos de datos
-      background: /assets/images/icons/datasets.svg
+      background: /assets/images/icons/datasets.png
       href: /institution/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=CO&displayOnNHCPortal=true&institutionKey=e85150f2-7c38-46c2-9dac-b3a895c0bf6d">10</span>
       description: Colecciones
-      background: /assets/images/icons/collections.svg
+      background: /assets/images/icons/collections.png
       href: /collection/search
 project:
   reverse: false
