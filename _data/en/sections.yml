@@ -12,7 +12,7 @@ stats:
       description: Datasets
       background: /assets/images/icons/datasets.svg
       href: /institution/search
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=CO&displayOnNHCPortal=true&institutionKey=e85150f2-7c38-46c2-9dac-b3a895c0bf6d">10</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=CO&institutionKey=e85150f2-7c38-46c2-9dac-b3a895c0bf6d">10</span>
       description: Collections
       background: /assets/images/icons/collections.svg
       href: /collection/search
