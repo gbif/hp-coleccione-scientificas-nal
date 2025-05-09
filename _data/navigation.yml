@@ -9,7 +9,7 @@
   - text: Ocurrencias
     href: /occurrence/search
   - text: Mapa de ocurrencias
-    href: /occurrence/search/?view=MAP
+    href: /occurrence/search/?view=map
   href: /occurrence/search
 - text: Recursos
   href: #

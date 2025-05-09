@@ -7,81 +7,200 @@ var siteTheme = gbifReactComponents.themeBuilder.extend({
 });
 
 var siteConfig = {
-  version: 2,
-  disableInlineTableFilterButtons: false, // disable option for adding filters by clicking table cells. See https://github.com/gbif/hosted-portals/issues/274
-  routes: {
-    alwaysUseHrefs: true, // Update - there now is translations. since the site isn't translated we can use push for now. if true, then we will always use hrefs, if false we will use onClick events and push state to the history. I've added this because I just realize that the language picker doesn't work with pushState as the url of the translated site is not updated with the new url
-    enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institutionSearch', 'institutionKey', 'datasetKey', 'datasetSearch'],
+  "version": 3,
+  "pages": [
+      {
+          "id": "occurrenceSearch"
+      },
+      {
+          "id": "collectionSearch"
+      },
+      {
+          "id": "collectionKey"
+      },
+      {
+          "id": "institutionSearch"
+      },
+      {
+          "id": "institutionKey"
+      },
+      {
+          "id": "datasetKey"
+      },
+      {
+          "id": "datasetSearch"
+      }
+  ],
+  "disableInlineTableFilterButtons": false,
+  "availableCatalogues": [
+      "COLLECTION",
+      "OCCURRENCE",
+      "DATASET"
+  ],
+  "dataHeader": {
+      "enableApiPopup": false,
+      "enableInfoPopup": false
   },
-  availableCatalogues: ['COLLECTION', 'OCCURRENCE', 'DATASET'],
-  occurrence: {
-    highlightedFilters: ['taxonKey', 'verbatimScientificName', 'collectionKey', 'catalogNumber', 'recordedBy', , 'gadmGid', 'hasCoordinate', 'q'],
-    excludedFilters: ['occurrenceStatus', 'networkKey', 'institutionKey', 'hostingOrganizationKey', 'protocol', 'publishingCountryCode', 'institutionCode', 'collectionCode'],
-    defaultTableColumns: ['features', 'collectionKey', 'catalogNumber', 'country', 'year', 'recordedBy', 'identifiedBy'],
-    mapSettings: {
-      lat: 4.256423432466043,
-      lng: -73.76639776334413,
-      zoom: 10
-    },
-    // You probably need help to configure the scope - so just ask
-    // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API. 
-    // See https://www.gbif.org/developer/occurrence (long page without enough anchors - search for "Occurrence Download Predicates")
-    // The format is however slightly different, in that is use camelCase for keys instead of CONSTANT_CASE. 
-    rootPredicate: {
-      "type": "and",
-      "predicates": [
-        {
-          "type": "or",
+  "theme": {
+      "primary": "#91b23a",
+      "borderRadius": 3,
+      "stickyOffset": "0px"
+  },
+  "maps": {
+      "locale": "es",
+      "mapStyles": {
+          "defaultProjection": "MERCATOR",
+          "defaultMapStyle": "BRIGHT",
+          "options": {
+              "ARCTIC": [
+                  "NATURAL",
+                  "BRIGHT"
+              ],
+              "PLATE_CAREE": [
+                  "NATURAL",
+                  "BRIGHT",
+                  "DARK"
+              ],
+              "MERCATOR": [
+                  "NATURAL",
+                  "BRIGHT",
+                  "SATELLITE",
+                  "DARK"
+              ],
+              "ANTARCTIC": [
+                  "NATURAL",
+                  "BRIGHT",
+                  "DARK"
+              ]
+          }
+      }
+  },
+  "languages": [
+      {
+          "code": "es",
+          "localeCode": "es",
+          "label": "Español",
+          "default": true,
+          "textDirection": "ltr",
+          "cmsLocale": "es",
+          "vocabularyLocale": "es-ES",
+          "iso3LetterCode": "spa",
+          "gbifOrgLocalePrefix": "/es",
+          "grSciCollLocalePrefix": "/es",
+          "mapTileLocale": "es"
+      },
+      {
+          "code": "en",
+          "localeCode": "en",
+          "label": "English",
+          "default": false,
+          "textDirection": "ltr",
+          "iso3LetterCode": "eng",
+          "cmsLocale": "en-GB",
+          "gbifOrgLocalePrefix": "",
+          "mapTileLocale": "en"
+      }
+  ],
+  "messages": {
+      "es": {
+          "catalogues.occurrences": "Especímenes"
+      },
+      "en": {
+          "catalogues.occurrences": "Specimens"
+      }
+  },
+  "occurrenceSearch": {
+      "scope": {
+          "type": "and",
           "predicates": [
-            {
-              "type": "isNotNull",
-              "key": "institutionKey"
-            },
-            {
-              "type": "isNotNull",
-              "key": "collectionKey"
-            }
+              {
+                  "type": "or",
+                  "predicates": [
+                      {
+                          "type": "isNotNull",
+                          "key": "institutionKey"
+                      },
+                      {
+                          "type": "isNotNull",
+                          "key": "collectionKey"
+                      }
+                  ]
+              },
+              {
+                  "type": "equals",
+                  "key": "publishingOrg",
+                  "value": "eac88d99-9f6c-4031-8fc4-8088f0e0dfe7"
+              }
           ]
-        },
-        {
-          "type": "equals",
-          "key": "publishingOrg",
-          "value": "eac88d99-9f6c-4031-8fc4-8088f0e0dfe7"
-        }
+      },
+      "highlightedFilters": [
+          "taxonKey",
+          "verbatimScientificName",
+          "collectionKey",
+          "catalogNumber",
+          "recordedBy",
+          null,
+          "gadmGid",
+          "hasCoordinate",
+          "q"
+      ],
+      "excludedFilters": [
+          "occurrenceStatus",
+          "networkKey",
+          "institutionKey",
+          "hostingOrganizationKey",
+          "protocol",
+          "publishingCountry",
+          "institutionCode",
+          "collectionCode"
+      ],
+      "defaultEnabledTableColumns": [
+          "features",
+          "collectionKey",
+          "catalogNumber",
+          "country",
+          "year",
+          "recordedBy",
+          "identifiedBy"
+      ],
+      "tabs": [
+          "table",
+          "map",
+          "gallery",
+          "datasets",
+          "download"
+      ],
+      "mapSettings": {
+          "lat": 4.256423432466043,
+          "lng": -73.76639776334413,
+          "zoom": 10
+      }
+  },
+  "collectionSearch": {
+      "scope": {
+          "institutionKey": [
+              "e85150f2-7c38-46c2-9dac-b3a895c0bf6d"
+          ]
+      },
+      "excludedFilters": [
+          "institutionKey"
       ]
-    },
-    occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS'] // what tabs should be shown
-    // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
-  collection: {
-    // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
-    // https://hp-theme.gbif-staging.org/data-exploration-config
-    rootFilter: {
-      institutionKey: ['e85150f2-7c38-46c2-9dac-b3a895c0bf6d']
-    },
-    excludedFilters: ['institutionKeySingle'],
+  "institutionSearch": {},
+  "datasetSearch": {
+      "scope": {
+          "publishingOrg": "eac88d99-9f6c-4031-8fc4-8088f0e0dfe7"
+      },
+      "highlightedFilters": [
+          "q",
+          "publishingOrg",
+          "type",
+          "license"
+      ],
+      "excludedFilters": [
+          "publishingCountry"
+      ]
   },
-  dataset: {
-    rootFilter: { publishingOrg: 'eac88d99-9f6c-4031-8fc4-8088f0e0dfe7' },
-    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
-    excludedFilters: ['publishingCountryCode'],
-  },
-    //apiKeys: {
-    //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
-    //mapbox: "GET_YOUR_OWN__TOKEN"
-  //},
-  maps: {
-    locale: 'es',
-    defaultProjection: 'MERCATOR',
-    defaultMapStyle: 'BRIGHT',
-    mapStyles: {
-      ARCTIC: ['NATURAL', 'BRIGHT'],
-      PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK'],
-      MERCATOR: ['NATURAL', 'BRIGHT', 'SATELLITE', 'DARK'],
-      ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
-    }
-  },
-  messages: {
-    "catalogues.occurrences": "Especímenes"
-  }
+  "publisherSearch": {},
+  "literatureSearch": {}
 };

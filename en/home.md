@@ -7,12 +7,11 @@ background: /assets/images/banner_biologicas_ST-(1920).jpg
 imageLicense: Universidad Nacional de Colombia
 height: 90vh
 parallax: true
-lang: en
 lang-ref: home
-permalink: /
+permalink: /en
 cta:
-  - text: Ocurrences
-    href: /specimen/search
+  - text: Specimens
+    href: /occurrence/search
     isPrimary: true
   - text: Collections
     href: /collection/search
@@ -24,5 +23,4 @@ composition:
     data: sections.stats
   - type: split
     data: sections.project
-permalink: /
 ---

@@ -7,12 +7,11 @@ background: /assets/images/banner_biologicas_ST-(1920).jpg
 imageLicense: Universidad Nacional de Colombia
 height: 90vh
 parallax: true
-lang: es
 lang-ref: home
 permalink: /
 cta:
   - text: Registros
-    href: /specimen/search/?view=MAP
+    href: /occurrence/search/?view=map
     isPrimary: true
   - text: Colecciones
     href: /collection/search
